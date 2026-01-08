@@ -1,0 +1,94 @@
+body {
+
+font-family: Courier New, monospace; 
+}
+.welcome-message{
+font-size: 30px;
+margin-top: 50px;
+font-weight: bold;
+text-align: center;
+margin-bottom: 75px;
+}
+
+.brief-description{
+font-size: 22px;
+text-align: justify;
+padding-left: 45px;
+padding-right: 45px;
+}
+
+.reason{
+font-size: 18px;
+text-align: justify;
+padding-left: 60px;
+padding-right: 60px;
+margin-bottom: 55px;
+}
+
+.how-it-works {
+font-size: 17px;
+text-align:justify;
+padding-left: 70px;
+padding-right:70px;
+margin-bottom: 45px;
+}
+
+.advice {
+font-size: 16px;
+text-align: justify;
+padding-right: 80px;
+padding-left: 80px;
+margin-bottom:0px;
+}
+
+.disclaimer {
+font-size:12px;
+text-align:center;
+padding-left: 90px;
+padding-right:90px;
+}
+
+.copyright {
+font: size 12px;
+text-align:center;
+}
+
+.snailman{
+display:block;
+max-width:250px;
+width:100%;
+height:auto;
+margin:auto;
+transform:translateX(50%);
+}
+
+
+.happysnail {
+display:block;
+max-width:350px;
+width: 100%;
+height:auto;
+margin:auto;
+transform:translateX(-35%);
+
+}
+
+.block{
+max-width: 1200px;
+margin: 0 auto;
+padding: 0 1px;
+text-align: center; 
+}
+
+@media (max-width: 450px) {
+    .snailman,
+    .happysnail {
+      transform: translateX(0); 
+      margin-right: auto;
+      margin-left:auto;
+    }
+  
+    .block {
+      padding: 0 20px;           
+    }
+}
