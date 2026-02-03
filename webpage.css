@@ -81,6 +81,7 @@ text-align: center;
   gap: 10px;
   max-width: 300px;
   margin: 0 auto;
+  font-family: Courier New, monospace
 }
 
 #newsletter-form input[type="email"] {
@@ -96,20 +97,20 @@ text-align: center;
   padding: 10px;
   border-radius: 6px;
   border: none;
-  background-color: skyblue;
+  background-color: #7CAAFF;
   color: white;
   font-size: 14px;
   cursor: pointer;
 }
 
 #newsletter-form button:hover {
-  background-color: skyblue;
+  background-color: #7CAAFF;
 }
 
 #newsletter-status {
   min-height: 1em; /* prevents layout jump */
-  font-size: 13px;
-  margin-top: 6px;
+  font-size: 14px;
+  margin-top: 14px;
 }
     
 }
