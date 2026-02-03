@@ -74,6 +74,8 @@ transform:translateX(-35%);
 }
 .newsletter {
 text-align: center;
+font-family: Courier New, monospace
+
 
 #newsletter-form {
   display: flex;
@@ -81,7 +83,6 @@ text-align: center;
   gap: 10px;
   max-width: 300px;
   margin: 0 auto;
-  font-family: Courier New, monospace
 }
 
 #newsletter-form input[type="email"] {
