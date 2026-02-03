@@ -72,7 +72,47 @@ margin:auto;
 transform:translateX(-35%);
 
 }
+.newsletter {
+text-align: center;
 
+#newsletter-form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  max-width: 300px;
+  margin: 0 auto;
+}
+
+#newsletter-form input[type="email"] {
+  padding: 10px;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+  font-size: 14px;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+#newsletter-form button {
+  padding: 10px;
+  border-radius: 6px;
+  border: none;
+  background-color: skyblue;
+  color: white;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+#newsletter-form button:hover {
+  background-color: skyblue;
+}
+
+#newsletter-status {
+  min-height: 1em; /* prevents layout jump */
+  font-size: 13px;
+  margin-top: 6px;
+}
+    
+}
 .block{
 max-width: 1200px;
 margin: 0 auto;
