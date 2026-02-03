@@ -74,7 +74,6 @@ transform:translateX(-35%);
 }
 .newsletter {
 text-align: center;
-font-family: Courier New, monospace
 
 
 #newsletter-form {
@@ -102,6 +101,7 @@ font-family: Courier New, monospace
   color: white;
   font-size: 14px;
   cursor: pointer;
+  font-family: Courier New, monospace
 }
 
 #newsletter-form button:hover {
@@ -111,7 +111,7 @@ font-family: Courier New, monospace
 #newsletter-status {
   min-height: 1em; /* prevents layout jump */
   font-size: 14px;
-  margin-top: 14px;
+  margin-top: 18px;
 }
     
 }
